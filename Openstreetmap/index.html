@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "favicon.ico"  >
+    <title>OpenStreetMap</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+   
+
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Lemon|Patua+One&display=swap" rel="stylesheet">
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+    
+
+      background-image: url('gif.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    
+    
+    .forma{
+      width: 450px;
+      height: 250px;
+      padding: 12px 20px;
+      margin: 0px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-color: #FFFFFF;
+      position: center;
+      border-radius: 5px
+      }
+      .username, .Password{
+      	padding: 10px 10px 3px 15px;
+      	border-radius: 5px
+	   
+
+      }
+
+    .register-btn{
+      border:0px;
+      color:black;
+      background-color: lightblue;
+      border-radius: 5px
+    }
+    .login-btn{
+      border:0px;
+      color:black;
+      background-color: lightblue;
+      border-radius: 5px
+    }
+
+
+
+  
+
+    </style>
+<body>
+
+
+
+
+
+
+    <section style="text-align:center; display:flex;justify-content: center; position:relative;padding: 20px; margin-top: 120px;">
+        
+        
+           <div class="forma">
+            <h4>Hi, you're back. Welcome!</h4><br>
+            <form method="POST" action="login.php">
+            	
+
+                <input type="text" name="users" class="username"  id="uname" placeholder="Enter username" style="width: 60%; display: inline-block; margin-bottom: 15px"><br>
+                <input type="password" name="password" class="Password" id="pass"  placeholder="Password" style="width: 60%; display: inline-block;margin-bottom: 20px"><br>
+
+               <button name="login" type="submit" class="login-btn" style="width: 100px;">Login</button>
+            </form></div>
+        
+    </section>
+
+   
+
+ <section class="container" style="  padding: 20px;text-align:center; display:flex;justify-content: center; position:relative; margin-top: 20px;">
+        
+        
+
+         <button name="reg" type="submit" class="register-btn" style="width: 100px;" onclick="window.location.href='register.html'">Register</button>
+         <div name="error"></div>
+     </form></div>
+ 
+</section>
+
+    
+
+<footer></footer>
+    
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+</body>
+
+
+</html>
+
